@@ -38,7 +38,7 @@ C/C++ 扩展可以为你提供代码补全、智能提示等功能，尽管我�
 ```c++
 #include <iostream>
 
-int main {
+int main() {
     std::cout << "Hello, world!" << std::endl;
 }
 ```
