@@ -47,7 +47,7 @@ int main {
         "${file}",    // 编译活动文件（active file）可以将其换成 "${workspaceFolder}/*.cpp" 来编译所有源文件
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"    // 它和前面的 "-o" 是一体的 意思是将生成的可执行文件存放在当前目录下
-      ],    // 指定要传递给 g++ 的命令行参数 注意顺序
+      ],    // 这一整个"args":[什么什么] 指定了要传递给 g++.exe 的命令行参数
       "options": {
         "cwd": "${fileDirname}"
       },
