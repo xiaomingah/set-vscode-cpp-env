@@ -20,13 +20,13 @@ gdb --version
 
 > 终端也就是命令行，例如 Windows 自带的 cmd、PowerShell等。
 
-打开 VS Code，新建工作区，并在工作区中添加一个 C++ 源文件（例如，`helloworld.cpp`）。随意写入一段代码，例如：
+打开 VS Code，新建工作区，并在工作区中添加一个 C++ 源文件（例如，`helloworld.cpp`）。随意写入一段代码：
 
 ```c++
 #include <iostream>
 
 int main {
-    std::cout << "Hello, world!" << std:: endl;
+    std::cout << "Hello, world!" << std::endl;
 }
 ```
 
