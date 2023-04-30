@@ -65,7 +65,7 @@ int main {
 
 此后，当你点击右上角的运行按钮或按下 F6，它便会自动读取 `tasks.json` 来构建并运行你的程序了。`tasks.json` 中可以存放多个 `task`，被指定为 `default` 的 `task` 会被运行按钮使用。
 
-如果你想要更换默认编译器，运行 `Tasks: Configure default build task` 或更改 `tasks.json` 中的 `command` 一项。
+如果你想要更换默认编译器，按 `Ctrl+Shift+P`，运行 `Tasks: Configure default build task` 或更改 `tasks.json` 中的 `command` 一项。
 
 ### 刚刚的工作是什么意思？
 
@@ -90,7 +90,7 @@ int main {
       "type": "cppdbg",
       "request": "launch",
       "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",    // 指定需要调试的文件 这里为活动文件目录 ${fileDirname} 下的活动文件（对应的可执行文件）
-      "args": [],    // 执行时传递给程序的参数 例如 ["arg1", "arg2"] 或 ["{\\\"arg1\\\": true}]
+      "args": [],    // 执行时传递给程序的参数 例如 ["arg1", "arg2"]
       "stopAtEntry": false,    // 是否在入口设置断点
       "cwd": "${fileDirname}",
       "environment": [],
