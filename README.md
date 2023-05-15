@@ -131,7 +131,7 @@ int main() {
 
 VS Code 的 Clangd 插件是 C/C++ 插件的一个平替，它同样可以提供代码补全、智能提示等功能。如果你认为 C/C++ 太蠢/太慢，那么你可能会喜欢它。
 
-Clangd 的智能提示和 C/C++ 插件相互冲突，你需要在后者的设置中禁用 IntelliSense（Clangd 插件通常会自动提示你这一点），方法是将 C/C++ 插件设置中 Intelli Sense Engine 一项设置为 Tag Parser 或 Disabled（后者会移除运行按钮，前者不会）。
+Clangd 的智能提示和 C/C++ 插件相互冲突，你需要在后者的设置中禁用 IntelliSense（Clangd 插件通常会自动提示你这一点），方法是将 C/C++ 插件设置中 Intelli Sense Engine 一项设置为 Disabled。
 
 如果你的 Clangd 表现不正常，检查插件设置里的 Path 选项是否是你的 `clangd.exe` 的正确位置，例如 `C:\llvm-mingw\bin\clangd.exe`。
 
